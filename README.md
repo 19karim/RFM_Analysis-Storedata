@@ -1,4 +1,4 @@
-**RFM Analysis **
+RFM Analysis 
 
 **Overview**
 
@@ -9,13 +9,21 @@ This repository contains data and analysis for conducting RFM (Recency, Frequenc
 The dataset provided contains the following columns:
 
 InvoiceNo: Unique identifier for each transaction.
+
 StockCode: Product code for the item purchased.
+
 Description: Description of the item purchased.
+
 Quantity: Number of units purchased in the transaction.
+
 InvoiceDate: Date and time of the transaction.
+
 UnitPrice: Price per unit of the item.
+
 CustomerID: Unique identifier for each customer.
+
 Country: Country where the transaction took place.
+
 TotalPrice: Total price of the transaction (Quantity * UnitPrice).
 
 **Analysis**
@@ -29,6 +37,7 @@ Frequency (F): How often a customer makes a purchase. This is calculated by coun
 Monetary (M): How much money a customer spends. This is calculated by summing up the total monetary value of all transactions made by the customer within a certain period.
 
 **Conclusion:**
+
 Can't Lose Them: Implement personalized rewards, exclusive perks, and proactive retention campaigns to maintain engagement and prevent churn among these valuable customers.
 
 Champions: Reward loyal customers with exclusive offers and maintain engagement.
